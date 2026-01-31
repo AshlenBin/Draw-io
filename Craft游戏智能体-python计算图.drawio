@@ -1,0 +1,33 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.6">
+  <diagram name="第 1 页" id="7xre1ryPoXKPgXGR6ahV">
+    <mxGraphModel dx="1072" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tfDUk0IWu6u1GJkDbbsW-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fontFamily=Lucida Console;whiteSpace=wrap;fontColor=default;fontSize=15;" value="&lt;span style=&quot;background-color: rgba(255, 255, 255, 0.01);&quot;&gt;state2tensor:将元数据转为Tensor格式&lt;/span&gt;" vertex="1">
+          <mxGeometry height="272" width="350" x="50" y="120" as="geometry">
+            <mxRectangle height="30" width="100" x="40" y="360" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tfDUk0IWu6u1GJkDbbsW-6" parent="tfDUk0IWu6u1GJkDbbsW-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=default;fontSize=15;" value="&lt;span style=&quot;background-color: rgba(255, 255, 255, 0.01);&quot;&gt;seq:(批量,序列×&lt;/span&gt;&lt;div style=&quot;resize: none; outline: none;&quot;&gt;&lt;div style=&quot;resize: none; outline: none;&quot;&gt;　　screen,inventory,action,reward]&lt;/div&gt;&lt;div style=&quot;resize: none; outline: none;&quot;&gt;　)&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;resize: none; outline: none;&quot;&gt;　screen: (高,宽×int)&lt;br&gt;　inventory: (16×int)&lt;br&gt;　action: (int)&lt;br&gt;　reward: (float)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="134" width="350" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tfDUk0IWu6u1GJkDbbsW-7" parent="tfDUk0IWu6u1GJkDbbsW-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Lucida Console;fontColor=default;fontSize=15;" value="" vertex="1">
+          <mxGeometry height="8" width="350" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="tfDUk0IWu6u1GJkDbbsW-8" parent="tfDUk0IWu6u1GJkDbbsW-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=default;fontSize=15;" value="&lt;span style=&quot;color: rgb(50, 50, 50); background-color: rgba(255, 255, 255, 0.01);&quot;&gt;screen: Tensor(批量,序列,高,宽×int)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="350" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="tfDUk0IWu6u1GJkDbbsW-13" parent="tfDUk0IWu6u1GJkDbbsW-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=default;fontSize=15;" value="&lt;span style=&quot;color: rgb(50, 50, 50); background-color: rgba(255, 255, 255, 0.01);&quot;&gt;inventory:&amp;nbsp;Tensor(批量,序列,16×float)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="350" y="194" as="geometry" />
+        </mxCell>
+        <mxCell id="tfDUk0IWu6u1GJkDbbsW-15" parent="tfDUk0IWu6u1GJkDbbsW-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=default;fontSize=15;" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;action:&amp;nbsp;Tensor(批量,序列×int)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="350" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="tfDUk0IWu6u1GJkDbbsW-14" parent="tfDUk0IWu6u1GJkDbbsW-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=default;fontSize=15;" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;reward:Tensor&amp;nbsp;(批量,序列×float)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="350" y="246" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
