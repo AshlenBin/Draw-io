@@ -1,31 +1,250 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.6">
   <diagram name="第 1 页" id="7xre1ryPoXKPgXGR6ahV">
-    <mxGraphModel dx="1072" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1554" dy="858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="tfDUk0IWu6u1GJkDbbsW-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fontFamily=Lucida Console;whiteSpace=wrap;fontColor=default;fontSize=15;" value="&lt;span style=&quot;background-color: rgba(255, 255, 255, 0.01);&quot;&gt;state2tensor:将元数据转为Tensor格式&lt;/span&gt;" vertex="1">
+        <mxCell id="tfDUk0IWu6u1GJkDbbsW-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fontFamily=Lucida Console;whiteSpace=wrap;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;background-color: rgba(255, 255, 255, 0.01);&quot;&gt;state2tensor:将元数据转为Tensor格式&lt;/span&gt;" vertex="1">
           <mxGeometry height="272" width="350" x="50" y="120" as="geometry">
             <mxRectangle height="30" width="100" x="40" y="360" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tfDUk0IWu6u1GJkDbbsW-6" parent="tfDUk0IWu6u1GJkDbbsW-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=default;fontSize=15;" value="&lt;span style=&quot;background-color: rgba(255, 255, 255, 0.01);&quot;&gt;seq:(批量,序列×&lt;/span&gt;&lt;div style=&quot;resize: none; outline: none;&quot;&gt;&lt;div style=&quot;resize: none; outline: none;&quot;&gt;　　screen,inventory,action,reward]&lt;/div&gt;&lt;div style=&quot;resize: none; outline: none;&quot;&gt;　)&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;resize: none; outline: none;&quot;&gt;　screen: (高,宽×int)&lt;br&gt;　inventory: (16×int)&lt;br&gt;　action: (int)&lt;br&gt;　reward: (float)&lt;/div&gt;" vertex="1">
+        <mxCell id="tfDUk0IWu6u1GJkDbbsW-6" parent="tfDUk0IWu6u1GJkDbbsW-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;background-color: rgba(255, 255, 255, 0.01);&quot;&gt;seq:(批量,序列×&lt;/span&gt;&lt;div style=&quot;resize: none; outline: none;&quot;&gt;&lt;div style=&quot;resize: none; outline: none;&quot;&gt;　　screen,inventory,action,reward]&lt;/div&gt;&lt;div style=&quot;resize: none; outline: none;&quot;&gt;　)&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;resize: none; outline: none;&quot;&gt;　screen: (高,宽×int)&lt;br&gt;　inventory: (16×int)&lt;br&gt;　action: (int)&lt;br&gt;　reward: (float)&lt;/div&gt;" vertex="1">
           <mxGeometry height="134" width="350" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="tfDUk0IWu6u1GJkDbbsW-7" parent="tfDUk0IWu6u1GJkDbbsW-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Lucida Console;fontColor=default;fontSize=15;" value="" vertex="1">
+        <mxCell id="tfDUk0IWu6u1GJkDbbsW-7" parent="tfDUk0IWu6u1GJkDbbsW-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="" vertex="1">
           <mxGeometry height="8" width="350" y="160" as="geometry" />
         </mxCell>
-        <mxCell id="tfDUk0IWu6u1GJkDbbsW-8" parent="tfDUk0IWu6u1GJkDbbsW-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=default;fontSize=15;" value="&lt;span style=&quot;color: rgb(50, 50, 50); background-color: rgba(255, 255, 255, 0.01);&quot;&gt;screen: Tensor(批量,序列,高,宽×int)&lt;/span&gt;" vertex="1">
+        <mxCell id="tfDUk0IWu6u1GJkDbbsW-8" parent="tfDUk0IWu6u1GJkDbbsW-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;background-color: rgba(255, 255, 255, 0.01);&quot;&gt;screen: Tensor(批量,序列,高,宽×int)&lt;/span&gt;" vertex="1">
           <mxGeometry height="26" width="350" y="168" as="geometry" />
         </mxCell>
-        <mxCell id="tfDUk0IWu6u1GJkDbbsW-13" parent="tfDUk0IWu6u1GJkDbbsW-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=default;fontSize=15;" value="&lt;span style=&quot;color: rgb(50, 50, 50); background-color: rgba(255, 255, 255, 0.01);&quot;&gt;inventory:&amp;nbsp;Tensor(批量,序列,16×float)&lt;/span&gt;" vertex="1">
+        <mxCell id="tfDUk0IWu6u1GJkDbbsW-13" parent="tfDUk0IWu6u1GJkDbbsW-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=light-dark(#000000,#FF7676);fontSize=15;" value="&lt;span style=&quot;background-color: rgba(255, 255, 255, 0.01);&quot;&gt;inventory:&amp;nbsp;Tensor(批量,序列,16×float)&lt;/span&gt;" vertex="1">
           <mxGeometry height="26" width="350" y="194" as="geometry" />
         </mxCell>
-        <mxCell id="tfDUk0IWu6u1GJkDbbsW-15" parent="tfDUk0IWu6u1GJkDbbsW-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=default;fontSize=15;" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;action:&amp;nbsp;Tensor(批量,序列×int)&lt;/span&gt;" vertex="1">
+        <mxCell id="tfDUk0IWu6u1GJkDbbsW-15" parent="tfDUk0IWu6u1GJkDbbsW-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;action:&amp;nbsp;Tensor(批量,序列×int)&lt;/span&gt;" vertex="1">
           <mxGeometry height="26" width="350" y="220" as="geometry" />
         </mxCell>
-        <mxCell id="tfDUk0IWu6u1GJkDbbsW-14" parent="tfDUk0IWu6u1GJkDbbsW-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=default;fontSize=15;" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;reward:Tensor&amp;nbsp;(批量,序列×float)&lt;/span&gt;" vertex="1">
+        <mxCell id="tfDUk0IWu6u1GJkDbbsW-14" parent="tfDUk0IWu6u1GJkDbbsW-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;reward:Tensor&amp;nbsp;(批量,序列×float)&lt;/span&gt;" vertex="1">
           <mxGeometry height="26" width="350" y="246" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fontFamily=Lucida Console;whiteSpace=wrap;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;stateEmbedding&lt;/span&gt;" vertex="1">
+          <mxGeometry height="190" width="350" x="480" y="161" as="geometry">
+            <mxRectangle height="30" width="100" x="40" y="360" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-4" parent="TGIpttghTT9jSQ_XbE-7-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;background-color: rgba(255, 255, 255, 0.01);&quot;&gt;screen: (批量,序列,高,宽×int)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="350" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-5" parent="TGIpttghTT9jSQ_XbE-7-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;background-color: rgba(255, 255, 255, 0.01);&quot;&gt;inventory: (批量,序列,16×float)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="350" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-6" parent="TGIpttghTT9jSQ_XbE-7-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;action: (批量,序列×int)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="350" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-3" parent="TGIpttghTT9jSQ_XbE-7-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="" vertex="1">
+          <mxGeometry height="8" width="350" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-7" parent="TGIpttghTT9jSQ_XbE-7-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;state: (批量,序列,64)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="350" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-17" parent="TGIpttghTT9jSQ_XbE-7-1" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=15;fillColor=default;fontColor=light-dark(#000000,#FF7676);" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;screen1:&amp;nbsp;(批量,序列,8,高,宽)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="350" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-18" parent="TGIpttghTT9jSQ_XbE-7-1" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=15;fillColor=default;fontColor=light-dark(#000000,#FF7676);" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;screen2:&amp;nbsp;(批量,序列,8,高,宽)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="350" y="164" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-19" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fontFamily=Lucida Console;whiteSpace=wrap;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;transformerEncoder&lt;/span&gt;" vertex="1">
+          <mxGeometry height="86" width="350" x="930" y="50" as="geometry">
+            <mxRectangle height="30" width="100" x="40" y="360" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-20" parent="TGIpttghTT9jSQ_XbE-7-19" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;encoder_input:&amp;nbsp;(批量,EnLen,64)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="350" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-23" parent="TGIpttghTT9jSQ_XbE-7-19" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="" vertex="1">
+          <mxGeometry height="8" width="350" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-24" parent="TGIpttghTT9jSQ_XbE-7-19" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;encoder_output: (批量,EnLen,64)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="350" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-27" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fontFamily=Lucida Console;whiteSpace=wrap;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;transformerDecoder&lt;/span&gt;" vertex="1">
+          <mxGeometry height="112" width="350" x="930" y="213" as="geometry">
+            <mxRectangle height="30" width="100" x="40" y="360" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-28" parent="TGIpttghTT9jSQ_XbE-7-27" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;decoder_input: (批量,DeLen-1,64)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="350" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-31" parent="TGIpttghTT9jSQ_XbE-7-27" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;encoder_output: (批量,EnLen,64)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="350" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-29" parent="TGIpttghTT9jSQ_XbE-7-27" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="" vertex="1">
+          <mxGeometry height="8" width="350" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-30" parent="TGIpttghTT9jSQ_XbE-7-27" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=15;fillColor=default;fontColor=light-dark(#000000,#FF7676);" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;decoder_output: (批量,DeLen-1,64)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="350" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-32" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fontFamily=Lucida Console;whiteSpace=wrap;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;screenPredict&lt;/span&gt;&lt;span style=&quot;font-size: 16px; background-color: rgba(18, 18, 18, 0.01);&quot;&gt;: 训练阶段多帧并行&lt;/span&gt;" vertex="1">
+          <mxGeometry height="160" width="370" x="950" y="490" as="geometry">
+            <mxRectangle height="30" width="100" x="40" y="360" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-36" parent="TGIpttghTT9jSQ_XbE-7-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;decoder_output: (批量,DeLen-1,64)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="370" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-37" parent="TGIpttghTT9jSQ_XbE-7-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;screen1:&amp;nbsp;(批量,序列,8,高,宽)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="370" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-38" parent="TGIpttghTT9jSQ_XbE-7-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;screen2:&amp;nbsp;(批量,序列,8,高,宽)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="370" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-35" parent="TGIpttghTT9jSQ_XbE-7-32" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="" vertex="1">
+          <mxGeometry height="8" width="370" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-39" parent="TGIpttghTT9jSQ_XbE-7-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;screen: (批量,DeLen-1,高,宽,20×float)&lt;/span&gt;&lt;div style=&quot;resize: none; outline: none; font-size: 16px;&quot;&gt;　　　　　　　　　　　float是词向量相关度&lt;/div&gt;" vertex="1">
+          <mxGeometry height="48" width="370" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-40" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fontFamily=Lucida Console;whiteSpace=wrap;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;screenPredict:&amp;nbsp;根据最后一帧预测下一帧&lt;/span&gt;" vertex="1">
+          <mxGeometry height="160" width="370" x="560" y="490" as="geometry">
+            <mxRectangle height="30" width="100" x="40" y="360" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-43" parent="TGIpttghTT9jSQ_XbE-7-40" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;decoder_output: (批量,1,64)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="370" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-41" parent="TGIpttghTT9jSQ_XbE-7-40" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;screen1:&amp;nbsp;(批量,序列,1,高,宽)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="370" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-42" parent="TGIpttghTT9jSQ_XbE-7-40" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;screen2:&amp;nbsp;(批量,序列,1,高,宽)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="370" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-44" parent="TGIpttghTT9jSQ_XbE-7-40" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="" vertex="1">
+          <mxGeometry height="8" width="370" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-45" parent="TGIpttghTT9jSQ_XbE-7-40" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;screen: (批量,1,高,宽,20×float)&lt;/span&gt;&lt;div style=&quot;resize: none; outline: none; font-size: 16px;&quot;&gt;　　　　　　　　　　　float是词向量相关度&lt;/div&gt;" vertex="1">
+          <mxGeometry height="48" width="370" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-46" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fontFamily=Lucida Console;whiteSpace=wrap;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;inventoryPredict:&amp;nbsp;根据最后一帧预测下一帧&lt;/span&gt;" vertex="1">
+          <mxGeometry height="112" width="370" x="560" y="690" as="geometry">
+            <mxRectangle height="30" width="100" x="40" y="360" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-47" parent="TGIpttghTT9jSQ_XbE-7-46" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;decoder_output: (批量,1,64)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="370" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-48" parent="TGIpttghTT9jSQ_XbE-7-46" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;inventory: (批量,1,16×float)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="370" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-50" parent="TGIpttghTT9jSQ_XbE-7-46" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="" vertex="1">
+          <mxGeometry height="8" width="370" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-51" parent="TGIpttghTT9jSQ_XbE-7-46" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;inventory: (批量,1,16×float)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="370" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-54" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fontFamily=Lucida Console;whiteSpace=wrap;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;inventoryPredict: 训练阶段&lt;/span&gt;&lt;span style=&quot;font-size: 16px; background-color: rgba(222, 222, 222, 0.01);&quot;&gt;多帧并行&lt;/span&gt;" vertex="1">
+          <mxGeometry height="112" width="370" x="950" y="690" as="geometry">
+            <mxRectangle height="30" width="100" x="40" y="360" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-55" parent="TGIpttghTT9jSQ_XbE-7-54" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;decoder_output: (批量,DeLen-1,64)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="370" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-56" parent="TGIpttghTT9jSQ_XbE-7-54" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;inventory: (批量,DeLen-1,16×float)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="370" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-57" parent="TGIpttghTT9jSQ_XbE-7-54" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="" vertex="1">
+          <mxGeometry height="8" width="370" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-58" parent="TGIpttghTT9jSQ_XbE-7-54" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;inventory: (批量,DeLen-1,16×float)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="370" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-59" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fontFamily=Lucida Console;whiteSpace=wrap;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;rewardPredict:&amp;nbsp;根据最后一帧预测下一帧&lt;/span&gt;" vertex="1">
+          <mxGeometry height="86" width="370" x="560" y="830" as="geometry">
+            <mxRectangle height="30" width="100" x="40" y="360" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-60" parent="TGIpttghTT9jSQ_XbE-7-59" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;decoder_output: (批量,1,64)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="370" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-62" parent="TGIpttghTT9jSQ_XbE-7-59" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="" vertex="1">
+          <mxGeometry height="8" width="370" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-63" parent="TGIpttghTT9jSQ_XbE-7-59" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;reward: (批量,1×float)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="370" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-64" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fontFamily=Lucida Console;whiteSpace=wrap;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;rewardPredict: 训练阶段&lt;/span&gt;&lt;span style=&quot;font-size: 16px; background-color: rgba(222, 222, 222, 0.01);&quot;&gt;多帧并行&lt;/span&gt;" vertex="1">
+          <mxGeometry height="86" width="370" x="950" y="830" as="geometry">
+            <mxRectangle height="30" width="100" x="40" y="360" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-65" parent="TGIpttghTT9jSQ_XbE-7-64" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;decoder_output: (批量,DeLen-1,64)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="370" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-67" parent="TGIpttghTT9jSQ_XbE-7-64" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="" vertex="1">
+          <mxGeometry height="8" width="370" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-68" parent="TGIpttghTT9jSQ_XbE-7-64" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=light-dark(default, #f0f0f0);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(18, 18, 18, 0.01);&quot;&gt;reward: (批量,&lt;/span&gt;&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;(DeLen-1)&lt;/span&gt;&lt;span style=&quot;font-size: 16px; background-color: rgba(18, 18, 18, 0.01);&quot;&gt;×float)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="370" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-69" edge="1" parent="1" source="tfDUk0IWu6u1GJkDbbsW-8" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TGIpttghTT9jSQ_XbE-7-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-70" edge="1" parent="1" source="tfDUk0IWu6u1GJkDbbsW-13" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="TGIpttghTT9jSQ_XbE-7-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-71" edge="1" parent="1" source="tfDUk0IWu6u1GJkDbbsW-15" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TGIpttghTT9jSQ_XbE-7-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-72" edge="1" parent="1" source="TGIpttghTT9jSQ_XbE-7-7" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startSize=6;" target="TGIpttghTT9jSQ_XbE-7-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="280" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-74" edge="1" parent="1" source="TGIpttghTT9jSQ_XbE-7-7" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TGIpttghTT9jSQ_XbE-7-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-77" edge="1" parent="1" source="TGIpttghTT9jSQ_XbE-7-24" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TGIpttghTT9jSQ_XbE-7-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1300" y="123" />
+              <mxPoint x="1300" y="180" />
+              <mxPoint x="890" y="180" />
+              <mxPoint x="890" y="278" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-84" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="120" width="370" x="90" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-78" parent="TGIpttghTT9jSQ_XbE-7-84" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=light-dark(#000000,#FF7676);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;decoder_output: (批量,DeLen-1,64)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="350" x="10" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-79" parent="TGIpttghTT9jSQ_XbE-7-84" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=light-dark(#000000,#FF7676);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;screen1:&amp;nbsp;(批量,序列,8,高,宽)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="350" x="10" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-80" parent="TGIpttghTT9jSQ_XbE-7-84" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=light-dark(#000000,#FF7676);fontSize=15;" value="&lt;span style=&quot;font-size: 16px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;screen2:&amp;nbsp;(批量,序列,8,高,宽)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="350" x="10" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-81" parent="TGIpttghTT9jSQ_XbE-7-84" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=light-dark(#000000,#FF7676);fontSize=15;" value="&lt;span style=&quot;background-color: rgba(255, 255, 255, 0.01);&quot;&gt;inventory:&amp;nbsp;Tensor(批量,序列,16×float)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="350" x="10" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-93" edge="1" parent="1" source="TGIpttghTT9jSQ_XbE-7-78" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TGIpttghTT9jSQ_XbE-7-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-95" edge="1" parent="1" source="TGIpttghTT9jSQ_XbE-7-79" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TGIpttghTT9jSQ_XbE-7-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-96" edge="1" parent="1" source="TGIpttghTT9jSQ_XbE-7-80" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="TGIpttghTT9jSQ_XbE-7-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-97" edge="1" parent="1" source="TGIpttghTT9jSQ_XbE-7-78" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TGIpttghTT9jSQ_XbE-7-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-98" edge="1" parent="1" source="TGIpttghTT9jSQ_XbE-7-78" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TGIpttghTT9jSQ_XbE-7-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TGIpttghTT9jSQ_XbE-7-99" edge="1" parent="1" source="TGIpttghTT9jSQ_XbE-7-81" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TGIpttghTT9jSQ_XbE-7-48">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
